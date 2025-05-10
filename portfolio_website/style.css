@@ -1,0 +1,728 @@
+@font-face {
+    font-family: canopee;
+    src: url(./fonts/canopee.ttf);
+}
+@font-face {
+    font-family: domain;
+    src: url(./fonts/domain.ttf);
+}
+@font-face {
+    font-family: editorial;
+    src: url(./fonts/editorial.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.main{
+    background-color: #2222;
+    overflow-x: hidden;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #C4BCB3; 
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    font-family: canopee;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #2222;
+}
+
+.nav .social{
+    display: flex;
+    gap: 1em;
+}
+.nav .social a{
+    text-decoration: none;
+    color: #1c1c19;
+}
+
+.nav img{
+    height: 30px;
+    width: 30%;
+}
+
+.nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+.nav i{
+    width: 30%;
+    text-align: right;
+}
+
+
+.elms{
+    display: flex;
+    align-items: center;
+    background-color:#C4BCB3;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.elem1 a{
+    text-decoration: none;
+    color: rgb(185, 37, 37);
+}
+.elem2 a{
+    text-decoration: none;
+    color: rgb(185, 37, 37);
+}
+.elem3 a{
+    text-decoration: none;
+    color: rgb(185, 37, 37);
+}
+
+.elem1{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #999999;
+
+}
+.elem2{
+    width: 25%;
+    height: 100%;
+    padding: 20px 60px;
+    text-align: center;
+}
+.elem3{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid #999999 ;
+}
+
+.image-dev img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.image-dev:hover img{
+    scale: 1.1;
+}
+
+.elem1 .image-dev{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.elem3 .image-dev{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.elem1 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+.elem1 h4 span{
+    background-color: #B43b12;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.elem1 p{
+    font-family:domain;
+    font-size: 20px;
+    color: #403f3f;
+}
+
+.elem3 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+.elem3 h4 span{
+    background-color: #B43b12;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.elem3 p{
+    font-family:domain;
+    font-size: 20px;
+    color: #403f3f;
+}
+
+.elem2 h2{
+    font-family: canopee;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.elem2 h3{
+    font-family: canopee;
+    font-size: 30px;
+    font-weight: 10;
+    color: #403f3f;
+}
+.elem2 h6{
+    font-family: canopee;
+    font-size: 15px;
+    font-weight: 10;
+    margin:0 20px;
+    color: #403f3f;
+}
+
+.page1 h1{
+    font-size: 400px;
+    letter-spacing: -5px;
+    font-weight: 100px;
+    height: 350px;
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #C4BCB3;
+    line-height: 350px;
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+    margin-top:70px;
+}
+
+
+
+.page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 50px;
+}
+
+
+.page2-left{
+    height: 100%;
+    padding-right: 50px;
+    width: 40%;
+    border-right: 1px solid #2222;
+}
+
+.page2-left h2{
+    font-size: 100px;
+    font-family: canopee;
+    line-height: 50px;
+ 
+}
+.page2-left h2 span{
+    font-size: 150px;
+    font-weight: 10px;
+    line-height: 180px;
+}
+
+.page2-left img{
+    height: 50%;
+    padding-right: 40px;
+    width: 100%;
+    object-fit: cover;
+}
+.page2-left p{
+    font-size: 34px;
+    font-family: domain;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+.page2-left p span{
+    font-size: 50px;
+    background-color: black;
+    font-family: canopee;
+    color: #C4BCB3;
+    padding: 2px 2px;
+    margin-top: 20px;
+}
+
+
+
+.page2-right{
+    height: 100%;
+    width: 60%;
+    padding: 0 60px;
+}
+
+.page2-right img{
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2-right h1{
+    font-family: canopee;
+    font-size: 90px;
+    font-weight: 100;
+    letter-spacing: -5px; 
+}
+.page3{
+    display: flex;
+    background-color: #C4BCB3;
+    height: 60vh;
+    padding-top: 100px;
+    justify-content: space-between;
+    padding: 20px 20px 100px 0px;
+    position: relative;
+}
+
+.page3 h1{
+    background-color: #1c1c19;
+    font-size:350px;
+    letter-spacing: -6%;
+    color:#C4BCB3;
+    font-family: canopee;
+    padding: 0px 20px ;
+}
+
+.page3 img{
+    height: 380px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+/* .page4{
+    height: 500px;
+    background-color:#C4BCB3;
+    padding: 2em;
+} 
+.page4 p{
+    font-size: 2em;
+    font-family: domain;
+}
+.page4 .most-outer-div{
+    display: flex;
+    padding-left:2em;
+    padding-top: 2em;
+    
+}
+.page4 .most-outer-div .outer-div{
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 1.5em;
+    margin-right: 2em;
+    background-color: #B3AA9E;
+}
+.page4 .most-outer-div .outer-div .inner-div{
+    border: 1px dashed  black ;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+.page4 .most-outer-div .outer-div .inner-div h1{
+    font-family:canopee;
+    font-weight:normal;
+    margin-bottom: 5px;
+}
+.page4 .most-outer-div .outer-div .inner-div p{
+    font-family:editorial;
+    font-weight:normal;
+    font-size: 1.7em;
+    padding-top: 1.5em;
+}
+.page4 .most-outer-div .outer-div .inner-div .text{
+    padding-top: 5em;
+
+}
+.page4 .most-outer-div .outer-div .inner-div .text span{
+    background-color: #2f2f2f;
+    color: #C4BCB3;
+    font-family: canopee;
+    font-size: 1.92em; 
+}*/
+
+.page5 {
+    padding: 20px 0px;
+
+    width: 100%;
+    background-color: #C4BCB3;
+    white-space:nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #1c1c19;
+    border-bottom: 1px solid #1c1c19;
+
+}
+
+.page5::-webkit-scrollbar{
+    display: none;
+}
+
+.page5 h1{
+    font-size: 100px;
+    font-family: domain;
+    display:inline-block;
+    margin-right: 20px;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.page5 h1 span{
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+.page5:hover h1{
+    animation-play-state: paused;
+}
+
+.page6{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    background-color:#C4BCB3;
+}
+.page6 .left{
+    display: flex;
+}
+.page6 .left h1{
+    font-family: canopee;
+    font-size: 1.4em;
+    padding: 0 1em;
+}
+.page6 .left span{
+    font-family: canopee;
+    font-size: 1.4em;
+    font-weight: 100;
+    padding: 0 0.2em;
+}
+.page6 .left img{
+    height: 30px;
+}
+.page6 .right{
+    display: flex;
+}
+.page6 .right a{
+    font-family: canopee;
+    font-size: 1.4em;
+    padding: 0 1em;
+    text-decoration: none;
+    color: black;
+}
+
+
+.work{
+    background-color: #C4BCB3;
+    display: flex;
+    justify-content: center;
+}
+.work h1{
+    font-family: canopee;
+    font-size: 2em;
+    border-bottom: 1px solid #1c1c19;
+}
+
+
+
+/* ANIMATIONS */
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+/* Add to existing style.css */
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .page1 h1 {
+        font-size: 300px;
+        height: 280px;
+        line-height: 280px;
+    }
+    
+    .page2-left h2 {
+        font-size: 80px;
+    }
+    
+    .page2-left h2 span {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .elms {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .elem1, .elem2, .elem3 {
+        width: 100% !important;
+        border: none !important;
+        margin-bottom: 40px;
+    }
+
+    .page2 {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 30px;
+    }
+
+    .page2-left, .page2-right {
+        width: 100% !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .page2-left img {
+        padding-right: 0;
+    }
+
+    .page3 {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .page3 h1 {
+        font-size: 200px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .page3 img {
+        position: static;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 0 15px;
+    }
+
+    .page1 h1 {
+        font-size: 150px;
+        height: 180px;
+        line-height: 180px;
+        margin-top: 40px;
+    }
+
+    .elem2 h2 {
+        font-size: 40px !important;
+    }
+
+    .elem2 h3 {
+        font-size: 24px !important;
+    }
+
+    .page2-left h2 {
+        font-size: 60px;
+    }
+
+    .page2-left h2 span {
+        font-size: 90px;
+    }
+
+    .page2-left p {
+        font-size: 24px;
+    }
+
+    .page2-right h1 {
+        font-size: 60px;
+    }
+
+    .page5 h1 {
+        font-size: 60px;
+    }
+
+    /* .page4 .most-outer-div {
+        flex-direction: column;
+    }
+    .page4.most-outer-div.outer-div{
+        padding: 0em;
+    }
+
+    .page4 .outer-div {
+        margin-right: 0;
+        margin-bottom: 2em;
+    } */
+}
+
+@media (max-width: 480px) {
+    .page1 h1 {
+        font-size: 80px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .elem2 {
+        padding: 20px 0 !important;
+    }
+
+    .elem1 p, .elem3 p {
+        font-size: 16px;
+    }
+
+    .page2-left h2 span {
+        font-size: 60px;
+    }
+
+    .page2-left p {
+        font-size: 18px;
+    }
+
+    .page2-right h1 {
+        font-size: 40px;
+    }
+
+    .page3 h1 {
+        font-size: 100px;
+    }
+
+    .page3 img {
+        height: 250px;
+    }
+
+    .page5 h1 {
+        font-size: 40px;
+    }
+
+    .page6 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .page6 .left, .page6 .right {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+/* Add touch support for scroll */
+.main {
+    overflow-x: hidden;
+    touch-action: pan-y;
+}
+
+/* Improve mobile menu */
+.nav i {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Add to existing media queries */
+/* @media (max-width: 992px) {
+    .page4 .most-outer-div {
+        flex-direction: column !important;
+        padding-left: 1em;
+    }
+    
+    .page4 .outer-div {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 1.5em;
+    }
+    
+    .page4 .inner-div .text {
+        padding-top: 2em !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .page4 h1 {
+        font-size: 2.5em !important;
+    }
+    
+    .page4 .inner-div p {
+        font-size: 1.2em !important;
+    }
+    
+    .page4 .inner-div .text span {
+        font-size: 1.4em !important;
+        display: inline-block;
+        margin-bottom: 0.5em;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    .page4 {
+        padding: 1em !important;
+
+    }
+    
+    .page4 .outer-div {
+        padding: 0.5em !important;
+
+    }
+    
+    .page4 .inner-div {
+        padding: 0.5em !important;
+    }
+    
+    .page4 p {
+        font-size: 1.5em !important;
+    }
+} */
+
+
+
+/* Adjust animation speed for mobile */
+@media (hover: none) {
+    .page5 h1 {
+        animation-duration: 10s;
+    }
+}
+
+/* .page4 */
+
+
+/* .page4, .page5, .page6 {
+    position: relative;
+    z-index: 2;
+} */
+
+
+/* Clear float issues */
+.main > div:not(.page1) {
+    clear: both;
+}
+
