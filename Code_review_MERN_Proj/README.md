@@ -1,13 +1,13 @@
-# 💻 CodeFixer — The Judgy Developer's Best Friend
+# 💻 CodeReviewer — The Judgy Developer's Best Friend
 
-![CodeFixer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.28.09%20AM.png) <!-- Replace with your actual image path -->
+![CodeReviewer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.28.09%20AM.png) <!-- Replace with your actual image path -->
 
 > **"Write code. Regret nothing. We'll fix it."**  
 Even if your code looks like it was written by a caffeinated squirrel — we’ve got you.
 
 ---
 
-## 🧠 What is CodeFixer?
+## 🧠 What is CodeReviewer?
 
 Code reviewer is an AI-powered code review tool built to help developers catch mistakes, bad practices, and the occasional catastrophic typo. Just paste your code, hit "Review," and let our sass-powered AI do its thing.
 
@@ -43,7 +43,7 @@ Code reviewer is an AI-powered code review tool built to help developers catch m
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/abhiraj7821/Software-and-Website-Development-Repo/tree/main/Code_review_MERN_Proj
 2. Starting BackEnd:
     ```bash
     cd BackEnd
@@ -55,10 +55,10 @@ Code reviewer is an AI-powered code review tool built to help developers catch m
 
 4. At your [localhost](http://localhost:5173/):
 Entry screen
-![CodeFixer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.28.09%20AM.png)
+![CodeReviewer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.28.09%20AM.png)
 
 5. Now copy paste code in left block and click review button and let ai do the work (wait until ai give's response)
-![CodeFixer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.39.55%20AM.png)
+![CodeReviewer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.39.55%20AM.png)
 
 6. All Done 👍 Your reviewed code is all cooked
-![CodeFixer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.42.11%20AM.png)
+![CodeReviewer Screenshot](./Frontend/public/Screenshot%202025-05-12%20at%2011.42.11%20AM.png)
