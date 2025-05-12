@@ -2,7 +2,7 @@
 
 Welcome to the **Software and Website Development Repository** — a comprehensive collection of intelligent, AI-assisted web and software development projects designed for performance, usability, and seamless user experiences.
 
-![Project Preview](./screenshot.png) <!-- Replace with actual image file -->
+![Project Preview](./portfolio_website/assists/Screenshot%202025-05-12%20at%2012.17.42%20PM.png <!-- Replace with actual image file -->
 
 ---
 
@@ -43,7 +43,7 @@ This repository showcases my personal projects where I combine modern **frontend
 
 _Add project screenshots here to visually impress visitors_  
 Example:
-![AI Code Review in Action](./ai-review-preview.png)
+![AI Code Review in Action](./Code_review_MERN_Proj/Frontend/public/Screenshot%202025-05-12%20at%2011.28.09%20AM.png)
 
 ---
 
