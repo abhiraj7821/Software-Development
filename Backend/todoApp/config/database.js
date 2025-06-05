@@ -1,11 +1,8 @@
 const mongoose = require("mongoose");
-
 require("dotenv").config();
 
-const uri = "mongodb+srv://user1:plmzaq123@cluster1.0ogxadl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
-
 const dbConnect = () => {
-    mongoose.connect(uri)
+    mongoose.connect(process.enc.DB_URL)
     .then(() => console.log("DB ka Connection is Successful"))
     .catch( (error) => {
         console.log("Issue in DB Connection");
